@@ -1,0 +1,44 @@
+:root {
+  font-family: 'Outfit', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  /* Game theme - dark with vibrant accents */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-card: #1e293b;
+  --bg-elevated: #334155;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent-primary: #22d3ee;
+  --accent-secondary: #a78bfa;
+  --accent-success: #34d399;
+  --accent-warning: #fbbf24;
+  --accent-danger: #f87171;
+  --border-subtle: rgba(148, 163, 184, 0.15);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+#root {
+  min-height: 100vh;
+}
