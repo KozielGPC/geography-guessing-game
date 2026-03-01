@@ -2,6 +2,12 @@
 
 Website for guessing the state, city or country, changing the value to be guessed every day.
 
+## Screenshots
+<img width="1493" height="784" alt="image" src="https://github.com/user-attachments/assets/80bd6295-fb82-4160-bec7-e9751150b0a2" />
+
+<img width="1493" height="784" alt="image" src="https://github.com/user-attachments/assets/8bfecdf7-1bbf-45dd-8feb-dde21391035b" />
+
+
 ## Features
 
 - **Daily rotation**: A new place to guess each day (deterministic, same for all users)
